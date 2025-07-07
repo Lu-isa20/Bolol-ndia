@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Bololândia</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🍰 Bololândia</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Cardápio</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="destaque">
+      <h2>Nossos Bolos</h2>
+      <div class="linha-bolos">
+
+        <div class="bolo">
+          <div class="imagem-container">
+            <img src="Bolo de chocolate.jpg" alt="Bolo de Chocolate">
+            <h3 class="titulo-sobre-imagem">Bolo de Chocolate</h3>
+          </div>
+          <p>Delicioso e molhadinho. A partir de R$ 40,00</p>
+        </div>
+
+        <div class="bolo">
+          <div class="imagem-container">
+            <img src="Bolo de morango.jpg" alt="Bolo de Morango">
+            <h3 class="titulo-sobre-imagem">Bolo de Morango</h3>
+          </div>
+          <p>Com frutas frescas e chantilly. A partir de R$ 45,00</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contato">
+      <h2>Faça seu pedido</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" placeholder="(11) 90000-0000" required>
+
+        <label for="bolo">Escolha seu bolo:</label>
+        <select id="bolo">
+          <option>Bolo de Chocolate</option>
+          <option>Bolo de Morango</option>
+        </select>
+
+        <input type="submit" value="Enviar Pedido">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Bololândia. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
